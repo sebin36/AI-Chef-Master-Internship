@@ -107,3 +107,15 @@
 
     Using the 'recommend_movie_knn' function, the model will give 10 user recommendations based on the user_id passed to the model as test sample. The model will 
     give recommendations who have similar interest that of given test user_id.
+
+
+15. Model Evaluation
+
+    For Model Evaluation, we use Mean Squared Error(MSE). MSE is a common metric for evaluating the accuracy of regression models by measuring the average squared     difference between predicted and actual values.
+
+    After MSE Calculation we got a value of 1.08 which suggests that the model is slightly prone to prediction errors and need to be improved.
+
+
+16. Feedback Loop
+
+    Feedback Loop updates the dataset by adding new values into the dataset and retraining it thereby increasing the chance of more accurate recommendations.
