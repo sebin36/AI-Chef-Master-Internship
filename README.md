@@ -101,3 +101,9 @@
     Recommendations - The recommendations section in the 'recommend_movies_knn' function generates a list of movie suggestions for the target user. After finding 
     the most similar users, the function picks movies that these similar users liked and recommends them to the target user, assuming they will have               
     similar tastes.
+
+
+14. Making Recommendations
+
+    Using the 'recommend_movie_knn' function, the model will give 10 user recommendations based on the user_id passed to the model as test sample. The model will 
+    give recommendations who have similar interest that of given test user_id.
